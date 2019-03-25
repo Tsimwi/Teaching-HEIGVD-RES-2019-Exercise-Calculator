@@ -1,7 +1,7 @@
 ### What transport protocol do we use?
 We use TCP protocol.
 ### How does the client find the server (addresses and ports)?
-The server's IP address and port is given to the client as arguments when it is started.
+The server's IP address and port are given to the client as arguments when it is started.
 ### Who speaks first?
 The client first speak to the server.
 ### What is the sequence of messages exchanged by the client and the server?
