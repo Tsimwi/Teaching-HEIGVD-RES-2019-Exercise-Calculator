@@ -10,6 +10,7 @@ The client sends a calculation data, the server processes the calculation then s
 Server : The message is parsed and treated.
 Client : The response is read and printed on the terminal.
 ### What is the syntax of the messages? How we generate and parse them?
-The message is a string containing numbers and operators. The way the server does the parsing is to be determined.
+The message is a string containing numbers and operators. The server reads the message character by character and check if the message is valid or not.
 ### Who closes the connection and when?
-The server closes the connection as soon as it finished sending its response. The client can close the connection when it received all the data.
+The client closes the connection whenever it finished sending requests. As soon the server receives the closure, it does
+the same.
