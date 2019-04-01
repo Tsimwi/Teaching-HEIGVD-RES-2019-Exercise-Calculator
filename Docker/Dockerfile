@@ -1,6 +1,6 @@
 FROM java:8
 
-COPY TcpServer-1.0-SNAPSHOT.jar /opt/app/server.jar
+COPY Calculator-1.0-SNAPSHOT-standalone.jar /opt/app/server.jar
 
 EXPOSE 1234
 
