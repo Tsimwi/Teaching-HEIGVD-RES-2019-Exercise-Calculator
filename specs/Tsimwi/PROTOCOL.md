@@ -3,7 +3,7 @@ We use TCP protocol.
 ### How does the client find the server (addresses and ports)?
 The server's IP address and port are given to the client as arguments when it is started.
 ### Who speaks first?
-The client first speak to the server.
+The server first speaks to the client.
 ### What is the sequence of messages exchanged by the client and the server?
 The client sends a calculation data, the server processes the calculation then sends its response to the client.
 ### What happens when a message is received from the other party?
